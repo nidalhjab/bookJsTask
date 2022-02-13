@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./homePage.css" />
+    <title>Book library</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-bar">
+        <h3>Search for your book !</h3>
+        <form id="search-form">
+          <input type="text" placeholder="Enter book name" id="search" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+      <section>
+        <p id="loader"></p>
+        <p id="error">Error</p>
+      </section>
+      <div id="books-list"></div>
+    </div>
+    <script type="module" src="../../scripts/homePage.js"></script>
+  </body>
+</html>
